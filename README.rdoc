@@ -1,7 +1,0 @@
-= setlocale
-
-POSIX locale natural language formatting for Ruby
-
-== Copyright
-
-Copyright (c) 2009 Adam Strzelecki. Released under MIT license. See LICENSE for details.

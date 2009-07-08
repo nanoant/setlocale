@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{setlocale}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Strzelecki"]
@@ -11,12 +11,11 @@ Gem::Specification.new do |s|
   s.email = %q{ono@java.pl}
   s.extensions = ["lib/extconf.rb"]
   s.extra_rdoc_files = [
-    "LICENSE",
-     "README.rdoc"
+    "README.markdown"
   ]
   s.files = [
-    "LICENSE",
-     "README.rdoc",
+    "MIT-LICENSE",
+     "README.markdown",
      "Rakefile",
      "VERSION",
      "lib/extconf.rb",
