@@ -1,0 +1,7 @@
+= setlocale
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Adam Strzelecki. See LICENSE for details.
