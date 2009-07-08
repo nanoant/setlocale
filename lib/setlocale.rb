@@ -1,0 +1,1 @@
+require 'setlocale_ext'

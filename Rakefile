@@ -5,10 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "setlocale"
-    gem.summary = %Q{TODO}
+    gem.description = "POSIX locale natural language formatting for Ruby"
+    gem.summary = "POSIX locale natural language formatting for Ruby"
     gem.email = "ono@java.pl"
     gem.homepage = "http://github.com/nanoant/setlocale"
     gem.authors = ["Adam Strzelecki"]
+    gem.extensions = ["lib/extconf.rb"]
+    gem.files = FileList['lib/**/*.rb', 'lib/**/*.c', 'bin/*', '[A-Z]*', 'test/**/*'].to_a
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
