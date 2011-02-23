@@ -11,7 +11,8 @@ Or when you want to ensure that *Iconv* extensions will work fine:
 Setup
 =====
 ### 1. Install
-    sudo gem install nanoant-setlocale -s http://gems.github.com/
+
+    sudo gem install setlocale
 
 Or from source:
 
